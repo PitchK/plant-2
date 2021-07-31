@@ -56,7 +56,7 @@ for (var i = 0; i < allModels.length; i++){
 
     var time = document.createElement('p');
     time.className = 'time';
-    time.innerHTML = ' | ⌛ Estimated time: 10-12 min';
+    time.innerHTML = ' | ⌛ Estimated time: ' + allModels[i].time;
     document.getElementsByClassName('difficultyDiv')[i].appendChild(time);
 
     //bottom two buttons
